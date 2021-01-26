@@ -6,6 +6,10 @@ class Diary < Sinatra::Base
     'Welcome to Diary'
   end
 
+  get '/diary' do
+    'Diary'
+  end 
+
   run! if app_file == $0
 
 end
