@@ -1,0 +1,3 @@
+
+
+CREATE TABLE diary(id SERIAL PRIMARY KEY, date DATE, title VARCHAR(20), entry VARCHAR);
